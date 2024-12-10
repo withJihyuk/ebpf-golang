@@ -1,7 +1,10 @@
 ```
 go generate && go build && sudo ./firewall
-
 ```
+
+-[] Go 언어에서 객체 로딩하기 [참고](https://ebpf-go.dev/concepts/loader/)
+-[] Redis에서 CIDR, IP 가져와서 처리
+-[] 임계치 기반 차단 구현
 
 ## in arm64
 ```shell
