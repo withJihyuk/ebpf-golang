@@ -24,7 +24,7 @@ func main() {
     }
     defer objs.Close() 
 
-    ifname := "ens18" // Change this to an interface on your machine.
+    ifname := "enp0s6" // Change this to an interface on your machine.
     iface, err := net.InterfaceByName(ifname)
     if err != nil {
         log.Fatalf("Getting interface %s: %s", ifname, err)
